@@ -1,0 +1,154 @@
+body {
+    background-image: linear-gradient(rgb(115, 240, 167), rgb(255, 255, 255), rgb(91, 185, 247));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 21px;
+    padding-right: 50px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+}
+
+nav ul li a {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin:1rem;
+}
+
+.about {
+    position: relative;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 110px;
+    padding-bottom: 0px;
+}
+
+h3, a{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 0px;
+    margin-right: 45%;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.pic{
+    position: absolute;
+    top: 290px;
+    left: 1100px;
+    transform: translate(-50%, -50%);
+}
+
+.pic img {
+    width: 280px;
+}
+
+section {
+    padding-left: 100px;
+}
+
+section#skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section#skills ul li {
+    padding-right: 60px;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: background 0.3s;
+    font-weight: 500;
+}
+
+.project {
+    margin-right: 20px;
+    width: 370px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.project img {
+    float: top;
+    width:  350px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 13px;
+    padding: 10px;
+}
+
+.project-info {
+    padding-right: 20px;
+    text-align: justify;
+    font-weight: 500;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+section#resume a {
+    text-decoration: none;
+    background: #2182f1;
+    color: #fff;
+    padding: 0.75em 1.5em;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+section#resume a:hover {
+    background: #0143f8;
+}
+
+section#resume p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+footer {
+    background-color:rgb(91, 185, 247) ;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+
